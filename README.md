@@ -8,7 +8,8 @@
 
 ## INSTRUCTIONS :
 
-In this assignment you will Implement a machine learning model to predict whether a message is spam or not. Furthermore, you will create a system that upon receipt of an email message, it will automatically flag it as spam or not, based on the prediction obtained from the machine learning model.
+In this assignment you will Implement a machine learning model to predict whether a message is spam or not. Furthermore, you will create a system that upon 
+receipt of an email message, it will automatically flag it as spam or not, based on the prediction obtained from the machine learning model.
 
 ## DESCRIPTION:
 
@@ -16,7 +17,8 @@ This assignment has the following components:
 
 **1. Complete tutorial for using Amazon SageMaker on AWS:**
 
-      a. Follow the following AWS tutorial on how to use Amazon SageMaker to implement the required model1 : https://aws.amazon.com/gettingstarted/hands-on/build-train-deploy-machi ne-learning-model-sagemaker/ .
+      a. Follow the following AWS tutorial on how to use Amazon SageMaker to implement the required model1 : 
+      https://aws.amazon.com/gettingstarted/hands-on/build-train-deploy-machi ne-learning-model-sagemaker/
 
       b. The purpose of the tutorial is to familiarize you with Amazon Sagemaker and the basic components of SageMake
 
@@ -37,13 +39,16 @@ This assignment has the following components:
 
         i. Confirm that the workflow is working by sending an email to that email address and seeing if the email information ends up in S3..
 
-    c. For any new email file that is stored in S3, trigger a Lambda function (LF1) that extracts the body of the email and uses the prediction endpoint (E1) to predict if the email is spam or not.:
+    c. For any new email file that is stored in S3, trigger a Lambda function (LF1) that extracts the body of the email and uses the prediction endpoint 
+    (E1) to predict if the email is spam or not.:
 
-        i. You might want to strip out new line characters “\n” in the email body, to match the data format in the SMS dataset that the ML model was trained on..
+        i. You might want to strip out new line characters “\n” in the email body, to match the data format in the SMS dataset that the ML model was 
+        trained on..
 
     d. Reply to the sender of the email (it could be your email, the TA’s etc.) with a message as follows:
     
-    “We received your email sent at [EMAIL_RECEIVE_DATE] with the subject [EMAIL_SUBJECT]. Here is a 240 character sample of the email body: [EMAIL_BODY] The email was categorized as [CLASSIFICATION] with a [CLASSIFICATION_CONFIDENCE_SCORE]% confidence.”
+    “We received your email sent at [EMAIL_RECEIVE_DATE] with the subject [EMAIL_SUBJECT]. Here is a 240 character sample of the email body: 
+    [EMAIL_BODY] The email was categorized as [CLASSIFICATION] with a [CLASSIFICATION_CONFIDENCE_SCORE]% confidence.”
 
         i. Replace each variable “[VAR]” with the corresponding value from the email and the prediction.
   
@@ -52,7 +57,8 @@ This assignment has the following components:
 
 **4. Create an AWS CloudFormation template for the automatic spam tagging system.:**
 
-    a. Create a CloudFormation template (T1) to represent all the infrastructure resources (ex. Lambda, SES configuration, etc.) and permissions (IAM policies, roles, etc.).
+    a. Create a CloudFormation template (T1) to represent all the infrastructure resources (ex. Lambda, SES configuration, etc.) and 
+    permissions (IAM policies, roles, etc.).
 
        i. The Swagger API documentation for the API can be found here: https://github.com/001000001/ai-photo-search-columbia-f2018/blob/master/swagger.yaml
 
