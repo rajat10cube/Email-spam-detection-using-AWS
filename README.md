@@ -68,7 +68,7 @@ This assignment has the following components:
 
 ## WORKFLOW DIAGRAM
 
-![alt text](https://github.com/rajat10cube/Voice-Based-Smart-Photo-Album/blob/main/Architecture/diagram.png)
+![alt text](https://github.com/rajat10cube/Email-spam-detection-using-AWS/blob/main/Screen%20Shot%202021-12-16%20at%201.43.50%20PM.png)
 
 ## Sample Use Case
 
